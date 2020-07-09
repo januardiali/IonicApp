@@ -1,0 +1,17 @@
+#splash-screen-page {
+  ion-content {
+    --ion-background-color: var(--ion-color-sambatan-splash-screen);
+    .vertical-center {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .sambatan-logo {
+      width: 43px;
+      height: 68px;
+      margin-bottom: 50px;
+    }
+  }
+}

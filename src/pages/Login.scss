@@ -1,0 +1,31 @@
+#login-page,
+#signup-page,
+#support-page {
+  .login-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    min-height: 200px;
+    text-align: center;
+  }
+
+  .login-logo img {
+    max-width: 150px;
+  }
+
+  .list {
+    margin-bottom: 0;
+  }
+  ion-item {
+    .button-show-password {
+      position: absolute;
+      bottom: 0px;
+      right: 0px;
+      z-index: 2;
+    }
+  }
+  .item-native {
+    padding-inline-start: unset;
+  }
+}
